@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 2000;
 
-server.listen(port,()=> console.log('Abriendo el servidor http://localhost:2000'));  
+app.listen(port,()=> console.log('Abriendo el servidor en 2000 port'));  
 
 let port= process.env.PORT || 2000;
 
