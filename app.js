@@ -5,7 +5,7 @@ const port = process.env.PORT || 2000;
 
 server.listen(port,()=> console.log('Abriendo el servidor http://localhost:2000'));  
 
-
+let port= process.env.PORT || 2000;
 
 const public = path.resolve(__dirname, './public');
         
