@@ -1,0 +1,41 @@
+.listas{
+   justify-content: center;
+position: relative;
+left: -50px;
+top: 25px;}
+
+header{
+   height:250px !important
+}
+
+
+.formulario{
+   padding-top: 50px;
+   padding-bottom: 30px;
+}
+
+.destacado{
+   position: relative;
+   left: 30px;
+   top:20px
+}
+.contenedor-footer{
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+ }
+ 
+
+ @media (min-width: 361px) {
+.destacado{
+   position: relative;
+    left:0px;
+    top: 20px;
+}
+header{
+   height: 170px;
+}
+
+
+
+}
